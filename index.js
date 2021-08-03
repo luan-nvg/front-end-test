@@ -18,23 +18,23 @@ function* gridPlacingsGen() {
 
 function createPlantCard(plant, gridPlacings) {
   const petIcons = {
-    false: "src/images/icons/pet.svg",
-    true: "src/images/icons/toxic.svg",
+    false: "images/icons/pet.svg",
+    true: "images/icons/toxic.svg",
   };
 
   const sunIcons = {
-    no: "src/images/icons/no-sun.svg",
-    low: "src/images/icons/low-sun.svg",
-    high: "src/images/icons/high-sun.svg",
+    no: "images/icons/no-sun.svg",
+    low: "images/icons/low-sun.svg",
+    high: "images/icons/high-sun.svg",
   };
 
   const waterIcons = {
-    rarely: "src/images/icons/1-drop.svg",
-    regularly: "src/images/icons/2-drops.svg",
-    daily: "src/images/icons/3-drops.svg",
+    rarely: "images/icons/1-drop.svg",
+    regularly: "images/icons/2-drops.svg",
+    daily: "images/icons/3-drops.svg",
   };
 
-  const favorit_Icons = "src/images/icons/staff-favorit.svg";
+  const favorit_Icons = "images/icons/staff-favorit.svg";
 
   let plantCard = document.createElement("div");
   plantCard.setAttribute(
